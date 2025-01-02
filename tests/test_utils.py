@@ -1,6 +1,5 @@
 """Unit tests for the utils functions."""
 
-import os
 import tempfile
 
 from src.utils import read_file
