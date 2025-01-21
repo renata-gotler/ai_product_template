@@ -10,6 +10,8 @@ def read_file(file_path: str, encoding: str = "utf-8") -> str:
     Returns:
         str: The contents of the file.
     """
-    with open(file_path, "r", encoding=encoding) as file_descriptor:
+    with open(
+        file_path, "r", encoding=encoding
+    ) as file_descriptor:
         content = file_descriptor.read()
     return content
